@@ -11,7 +11,7 @@ HTML, CSS, JS
 ## Known Bugs
 All bugs that arised were fixed successfully
 ## Project Live Link
-
+https://fabianmatata.github.io/akan_names/
 ## Setup & Installation Instructions
 To install the above project in your computer you have to first download it, after which you can run it locally on your computer.
 ## Contact & License Information  
