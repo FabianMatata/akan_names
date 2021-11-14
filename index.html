@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>akan_names</title>
+    <!--css file-->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <section>
+        <div>
+            <div>
+                <div class="top">
+                    <!-- <img src="https://africa.cgtn.com/wp-content/photo-gallery/2017/08/african_children_s_choir_2_photo_by_shutter_sweet_photography.jpg" alt=""> -->
+                    <h1>AKAN NAMES</h1>
+                    <p>This is a website to help generate Akan Names based on day of the week a child is born as is the Akan culture. <br> Below are the diffent names given to male and female children on different days of the week they are born.</p>
+
+
+                    <div class="xcard">
+
+                        <div class="card" style="width: 18rem;">
+                            <h3>Male</h3>
+                            <div class="card-body" id="one">
+                                <ul id="one">
+                                    <li><b>Sunday: </b>Kwasi</li>
+                                    <li><b>Monday: </b>Kwadwo</li>
+                                    <li><b>Tuesday: </b>Kwabena</li>
+                                    <li><b>Wednesday: </b>Kwaku</li>
+                                    <li><b>Thursday: </b>Yaw</li>
+                                    <li><b>Friday: </b>Kofi</li>
+                                    <li><b>Saturday: </b>Kwame</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="card" style="width: 18rem;">
+                            <h3>Female</h3>
+                            <div class="card-body">
+                                <ul>
+                                    <li><b>Sunday: </b>Akosua</li>
+                                    <li><b>Monday: </b>Adwoa</li>
+                                    <li><b>Tuesday: </b>Abenaa</li>
+                                    <li><b>Wednesday: </b>Akua</li>
+                                    <li><b>Thursday: </b>Yaa</li>
+                                    <li><b>Friday: </b>Afua</li>
+                                    <li><b>Saturday: </b>Ama</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <br>
+                    <!-- <br><br><br><br><br><br><br><br> -->
+                    <div>
+                        <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, asperiores!</p> -->
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="formm">
+                <div>
+                    <h2>Find your name</h2>
+                    <form id="formmm">
+                        <table>
+                            <tr>
+                                <th>Day</th>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="day" id="" placeholder="dd" size="" required></td>
+                            </tr>
+                            <tr>
+                                <th>Month:</th>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="month" id="" placeholder="mm" size="" required></td>
+                            </tr>
+                            <tr>
+                                <th>Year:</th>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="year" id="" placeholder="yyyy" size="" required></td>
+                            </tr>
+                            <tr>
+                                <td><input type="reset" value="Reset"></td>
+                            </tr>
+                        </table>
+                        <b>Gender: </b>
+                        <br>
+                        <div id="mf">
+                            <input type="radio" name="gender" value="name" onclick="malecompute(this.form)"><span>Male</span>
+                            <!-- <br> -->
+                            <input type="radio" name="gender" value="female" onclick="femalecompute(this.form)"><span>Female</span>
+                        </div>
+                        <table>
+                            <tr>
+                                <th>Date Of Birth:</th>
+                            </tr>
+                            <tr>
+                                <th><input type="text" name="result1" size="20"></th>
+                            </tr>
+                            <tr>
+                                <th>Your Akan Name:</th>
+                            </tr>
+                            <tr>
+                                <th><input type="text" name="result2" size="20"></th>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+    </section>
+    <br><br>
+    <footer>
+        &copy Copyright 2021
+    </footer>
+
+
+    <script src=""></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

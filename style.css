@@ -1,0 +1,69 @@
+body {
+    background: url(https://africa.cgtn.com/wp-content/photo-gallery/2017/08/african_children_s_choir_2_photo_by_shutter_sweet_photography.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.top {
+    margin-top: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2,
+p {
+    text-align: center;
+    color: white;
+}
+
+.formm h2 {
+    color: black;
+}
+
+.xcard {
+    display: flex;
+    gap: 50px;
+    margin-left: 550px;
+}
+
+.xcard .card {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #D9DCDD;
+}
+
+.card h3 {
+    font-size: 28px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: -10px;
+    color: black;
+}
+
+.card ul li {
+    font-size: 18px;
+}
+
+#formmm {
+    margin-left: 780px;
+    color: black;
+}
+
+footer {
+    margin-left: 20px;
+    color: white;
+}
+
+span {
+    color: white;
+}
