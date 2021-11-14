@@ -3,7 +3,7 @@ Akan Names Generator
 ## Project Description
 This is a website to help generate Akan Names based on day of the week a child is born as is the Akan culture.
 
-![]()
+![](./akan.png)
 ## Author
 Fabian Matata
 ## Technology Used 
