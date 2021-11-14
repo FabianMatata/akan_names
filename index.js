@@ -116,3 +116,5 @@ function malecompute(form) {
     form.result1.value = months[val2] + " " + form.day.value + ", " + form.year.value
     form.result2.value = maleakannames[val0]
 }
+
+//
